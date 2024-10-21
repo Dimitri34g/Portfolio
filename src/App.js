@@ -1,16 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import ProjectDetail from "./pages/ProjectDetail";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import AppRoutes from "./routes";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project/:id" element={<ProjectDetail />} />
-      </Routes>
-    </Router>
+    <ThemeProvider>
+      <AppRoutes />
+    </ThemeProvider>
   );
 }
 
