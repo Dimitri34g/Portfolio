@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Projet 1",
+      "description": "Description du projet 1",
+      "image": "/assets/images/projet1.png",
+      "link": "https://lien-du-projet1.com",
+      "technologies": ["React", "Tailwind CSS", "GSAP"]
+    },
+    {
+      "id": 2,
+      "title": "Projet 2",
+      "description": "Description du projet 2",
+      "image": "/assets/images/projet2.png",
+      "link": "https://lien-du-projet2.com",
+      "technologies": ["Vue.js", "Bootstrap", "Firebase"]
+    },
+    {
+      "id": 3,
+      "title": "Projet 3",
+      "description": "Description du projet 3",
+      "image": "/assets/images/projet3.png",
+      "link": "https://lien-du-projet3.com",
+      "technologies": ["Angular", "Bulma", "Node.js"]
+    }
+  ]
+  
